@@ -1,6 +1,6 @@
 @import 'reset.css';
 @import 'fonts.css';
-@import 'ui/buttons.css';
 @import 'variables.css';
 @import 'global.css';
+@import 'ui/buttons.css';
 @import './components/index.css';

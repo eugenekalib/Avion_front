@@ -1,0 +1,50 @@
+.email-box {
+    background-color: var(--light-gray);
+    padding-top: 52px;
+    padding-bottom: 65px;
+}
+.email-box__wrapper {
+    background-color: white;
+}
+.email-box__heading {
+    padding-top: 68px;
+    text-align: center;
+    font-family: 'Clash Display';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    color: var(--dark-primary);
+}
+.email-box__text {
+    color: var(--dark-primary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 420px;
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 16px;
+}
+.email__inputs {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 54px;
+}
+.email__inputs__input {
+    background-color: var(--light-gray);
+    color: var(--dark-primary);
+    border: none;
+    padding-block: 17px;
+    padding-left: 32px;
+    width: 100%;
+    max-width: 354px;
+}
+.email__inputs_button {
+    background-color: var(--dark-primary);
+    color: white;
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}

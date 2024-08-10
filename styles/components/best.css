@@ -1,0 +1,39 @@
+.best__heading {
+    font-family: 'Clash Display';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 24px;
+}
+.best-cards__wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.best__card__img {
+    color: var(--dark-primary);
+    width: 100%;
+    height: 100%;
+    max-height: 375px;
+    object-fit: cover;
+}
+.best__card__name {
+    color: var(--dark-primary);
+    font-family: 'Clash Display';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 24px;
+}
+.best__card__price {
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 8px;
+}
+.best__button {
+    margin-inline: auto;
+    margin-top: 42px;
+    margin-bottom: 48px;
+}

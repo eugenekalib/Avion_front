@@ -1,0 +1,39 @@
+.hero {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color: var(--dark-primary);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.hero-info {
+    color: white;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-info__heading {
+    font-family: 'Clash Display';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    max-width: 510px;
+}
+.hero-info__text {
+    font-family: 'Satoshi';
+    margin-top: auto;
+    max-width: 610px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.hero__img {
+    object-fit: cover;
+    height: 100%;
+}
+.button-hero {
+    color: white;
+    background-color: var(--button-bgc);
+    margin-top: 40px;
+}

@@ -1,0 +1,27 @@
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #0000001A;
+    margin-inline: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.top-nav__buttons {
+    display: flex;
+    gap: 16px;
+}
+.top-nav__links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+.top-nav__link {
+    color: var(--links-color);
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}

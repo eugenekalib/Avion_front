@@ -1,9 +1,12 @@
 :root {
-    --primary: #4E4D93;
-    --dark-primary: #2A254B;
-    --h1-color: #22202E;
-    --links-color: #726E8D;
-    --button-bgc: #F9F9F926;
-    --light-gray: #F9F9F9;
-    --white-dark: #FFFFFF26;
+    --font-family-primary: 'Satoshi', sans-serif;
+    --font-family-headers: 'Clash Display', sans-serif;
+
+    --primary: hsl(242, 31%, 44%);
+    --dark-primary: hsl(248, 34%, 22%);
+    --h1-color: hsl(249, 18%, 15%);
+    --links-color: hsl(248, 12%, 49%);
+    --button-bgc: hsla(0, 0%, 98%, 0.149);
+    --light-gray: hsl(0, 0%, 98%);
+    --white-dark: hsla(0, 0%, 100%, 0.149);
 }

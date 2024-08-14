@@ -3,12 +3,18 @@ body {
 }
 
 .container {
-    max-width: 1280px;
+    --padding-inline: 40px;
+    --max-width: 1280px;
+
+    max-width: calc(var(--max-width) + var(--padding-inline) * 2);
     margin-inline: auto;
+    padding-inline: var(--padding-inline);
 }
+
 svg {
     color: var(--dark-primary)
 }
+
 h1 {
     font-weight: 400;
     font-size: 24px;
@@ -16,3 +22,15 @@ h1 {
     color: var(--h1-color);
     font-family: var(--font-family-headers);
 }
+
+@media screen and (max-width: 1024px) {
+    .container {
+        --padding-inline: 40px;
+    }
+}
+
+/* @media screen and (max-width: 600px) {
+    .container {
+        --padding-inline: 24px;
+    }
+} */

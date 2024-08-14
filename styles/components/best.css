@@ -36,3 +36,18 @@
     margin-top: 42px;
     margin-bottom: 48px;
 }
+
+@media screen and (max-width: 1024px) {
+    .best-cards__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .bestbest__card:first-child {
+        grid-column: span 2;
+    }
+}
+
+/* @media screen and (max-width: 600px) {
+    .container {
+        --padding-inline: 24px;
+    }
+} */

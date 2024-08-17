@@ -5,11 +5,10 @@
     margin-bottom: 60px;
 }
 .hero-info {
+    --padding: 60px;
     background-color: var(--dark-primary);
     color: white;
-    padding-top: 60px;
-    padding-left: 60px;
-    padding-bottom: 60px;
+    padding: var(--padding) 0 var(--padding) var(--padding);
     display: flex;
     flex-direction: column;
 }
@@ -19,8 +18,10 @@
     font-size: 32px;
     line-height: 45px;
     max-width: 510px;
+    margin: 0;
 }
 .hero-info__text {
+    margin: 0;
     margin-top: auto;
     max-width: 610px;
     font-weight: 400;
@@ -35,4 +36,22 @@
     color: white;
     background-color: var(--button-bgc);
     margin-top: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-info {
+        --padding: 20px;
+    }
+    .hero-info__heading {
+        font-size: 20px;
+        max-width: 80%;
+        line-height: 28px;
+    }
+    .button-hero {
+        margin-top: 20px;
+    }
+    .hero-info__text {
+        margin-top: 50px;
+        max-width: 90%;
+    }
 }

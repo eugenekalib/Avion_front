@@ -6,4 +6,5 @@
     line-height: 24px;
     width: fit-content;
     cursor: pointer;
+    white-space: nowrap;
 }
